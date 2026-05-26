@@ -863,7 +863,7 @@ def _update_index(
 # Public API
 # ---------------------------------------------------------------------------
 
-DEFAULT_COMPILE_CONCURRENCY = 5
+DEFAULT_COMPILE_CONCURRENCY = 2
 
 
 def _format_known_targets(targets: set[str]) -> str:
